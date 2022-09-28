@@ -41,5 +41,40 @@
         android:layout_below="@+id/tv_kepada"
         android:entries="@array/arr_kepada" />
 
+    <Button
+        android:id="@+id/btn_click_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:layout_centerInParent="true"/>
+
+    <CheckBox
+        android:id="@+id/cb_yakin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yakin"
+        android:layout_below="@id/btn_click_here"/>
+    <CheckBox
+        android:id="@+id/cb_yakin_banget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yakin Banget"
+        android:layout_below="@id/btn_click_here"
+        android:layout_toRightOf="@id/cb_yakin"/>
+    <CheckBox
+        android:id="@+id/cb_ga_yakin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ga Yakin"
+        android:layout_below="@+id/btn_click_here"
+        android:layout_toRightOf="@id/cb_yakin_banget"/>
+
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:layout_alignParentBottom="true"
+
 
 </RelativeLayout>
